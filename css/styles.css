@@ -382,12 +382,13 @@ button {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item:hover .overlay {
-  transform: translateY(0%);
-}
-
 .portfolio-link {
   color: var(--prymary-text-color);
+}
+
+.portfolio-item:hover .overlay,
+.portfolio-item:focus .overlay {
+  transform: translateY(0%);
 }
 
 .portfolio-box {
